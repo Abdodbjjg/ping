@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "9759782"))
-API_HASH = getenv("API_HASH", '944874124a5b112550913dab5e1117fe')
+API_ID = int(getenv("API_ID", "22574983")
+API_HASH = getenv("API_HASH", "7dcd89bd0218643888d4288eeff052ca")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6145819550:AAHd0qonnFhDohA1_L91ovTTvE-Z3-tAafs")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://islam2005:islam2005@cluster0.rdjot.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
@@ -37,21 +37,21 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("OWNER_ID", ""))
+LOG_GROUP_ID = int(getenv("OWNER_ID", "5423262137")
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Abn Tanta")
 
 # Your User ID.
 OWNER_ID = list(
-  map(int, getenv("OWNER_ID", "").split())) + [5680297831,5957205447,5680297831]
+  map(int, getenv("OWNER_ID", "5423262137").split())) + [5680297831,5957205447,5680297831]
  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "98a010eb-aadf-4a20-9f9a-ba84eb9388e8"")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "Abdo")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
